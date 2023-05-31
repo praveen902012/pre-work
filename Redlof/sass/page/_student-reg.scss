@@ -1,0 +1,319 @@
+.reg-nav-block {
+    h3 {
+        font-size: 1.25rem;
+        color: #21242C;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+
+    p {
+        color: #6F7784;
+        padding-bottom: 25px;
+    }
+
+    .step-link {
+        display: inline-block;
+        border: 1px solid #308BF2;
+        background: #FFFFFF;
+        color: #308BF2;
+        font-family: Arial;
+        font-size: .85rem;
+        padding: 5px 30px;
+        line-height: 1.65em;
+        margin-right: 10px;
+        font-family: $font-primary;
+
+        &.active {
+            box-shadow: none;
+            background-color: #308BF2;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.sp-form-container {
+    max-width: 1025px;
+    margin: 0 auto;
+}
+
+.sp-form {
+    padding: 35px 0 70px;
+
+    .drop-box {
+        max-width: 160px;
+        padding: 20px;
+        background-color: #F3F3F3;
+        line-height: 32px;
+        border: 2px dashed #C7C7C7;
+        margin: 0;
+        margin-right: auto;
+        height: 115px;
+
+        p {
+            color: #666666;
+            line-height: initial;
+            font-size: .85rem;
+        }
+
+        .ctm-icon {
+            font-size: 24px;
+            color: #666666;
+        }
+    }
+}
+
+.dropbox-container {
+    position: relative;
+
+    .btn-blue {
+        position: absolute;
+        top: 39%;
+        left: 56%;
+        font-size: .75rem;
+        padding: 3px 25px;
+        border-radius: 4px;
+    }
+}
+
+.school-list-box {
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    padding: 0 0 0 15px;
+
+    .table-fixed {
+        tbody {
+            height: 385px;
+            overflow-y: auto;
+            width: 100%;
+        }
+
+        &.table-fixed-selected tbody {
+            height: 433px;
+            overflow-y: initial;
+        }
+    }
+
+    .table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+        display: block;
+    }
+
+    .table-fixed tbody td, .table-fixed thead > tr > th {
+        float: left;
+        border-bottom-width: 0;
+    }
+
+    .table-fixed > thead:first-child > tr:first-child > th, .font-sm {
+        font-size: .875rem;
+        min-height: 25px;
+    }
+
+    .table-fixed > tbody > tr > td {
+        vertical-align: middle;
+        padding: 20px 8px;
+    }
+
+    .search-blk {
+        position: relative;
+
+        .search-icon {
+            position: absolute;
+            top: 17px;
+            left: 24px;
+            color: #a1a1a1;
+        }
+
+        .form-control {
+            padding-left: 35px;
+            max-width: 180px;
+            height: 32px;
+            margin-left: auto;
+        }
+    }
+
+    .btn-theme {
+        line-height: 26px;
+        font-weight: 900;
+        padding: 1px 11px;
+        min-width: initial;
+        height: initial;
+    }
+
+    .btn-rm {
+        padding: 2px 9px;
+        font-weight: 900;
+    }
+}
+
+.sp-arrow-block {
+    height: 500px;
+
+    .icon-arrow {
+        display: block;
+        font-size: 30px;
+        color: #6E7584;
+        line-height: 16px;
+    }
+}
+
+.step-schoolselect {
+    .checkbox-block {
+        width: 3%;
+        float: left;
+    }
+
+    .checkbox-content {
+        width: 97%;
+        float: left;
+    }
+
+    .label-declaration {
+        font-weight: 500;
+
+        input[type="checkbox"] {
+            margin: -1px 8px 0px 0;
+            height: 15px;
+            width: 15px;
+            vertical-align: middle;
+            border: 1px solid #88848c;
+            background: #ffffff;
+            -webkit-appearance: none;
+            border-radius: 2px;
+            outline: none;
+
+            &:checked {
+                background-color: #ffffff;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    width: 4px;
+                    height: 8px;
+                    border: solid #333333;
+                    border-width: 0 2px 2px 0;
+                    -webkit-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    margin-left: 5px;
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+}
+
+.page-sp-success {
+    padding: 60px 0 100px;
+
+    h3 {
+        font-size: 1.31rem;
+        font-weight: 600;
+        padding-bottom: 25px;
+    }
+
+    .btn-blue {
+        padding: 8px 20px;
+        border-radius: 4px;
+    }
+}
+
+.doc-list-card {
+    margin-bottom: 40px;
+    border-color: rgb(239, 239, 239) !important;
+
+    .heading-header {
+        border-color: rgb(239, 239, 239) !important;
+    }
+
+    h4 {
+        font-size: .875rem;
+        font-weight: 700;
+        line-height: 1em;
+    }
+
+    p {
+        padding-bottom: 8px;
+        line-height: 1.25em;
+        color: rgb(33, 36, 44);
+        font-size: .875rem;
+
+        a {
+            margin-right: 6px;
+
+            .fa {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .checkbox-sample {
+        border: 1px solid rgb(239, 239, 239);
+        padding: 6px 12px;
+        border-radius: 4px;
+        min-height: 38px;
+        color: rgb(111, 119, 132);
+        font-size: 13px;
+        line-height: 1.75em;
+ 
+        label {
+            color: rgb(111, 119, 132);
+        }
+
+        input[type="checkbox"] {
+            margin-top: -2px;
+            vertical-align: middle;
+            height: 14px;
+            width: 14px;
+            background-color: #ffffff;
+            border: 1px solid rgb(214, 214, 214);
+            -webkit-appearance: none;
+            outline: none;
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+            cursor: pointer;
+            -webkit-transition: all;
+            position: relative;
+            margin-right: 10px;
+        }
+
+        input[type="checkbox"]:checked {
+            background-color: #ffffff;
+            border-color: rgb(214, 214, 214);
+            position: relative;
+        }
+
+        input[type="checkbox"]:checked:before {
+            margin-top: -2px;
+            vertical-align: middle;
+            transform: rotate(45deg);
+            position: absolute;
+            left: 4px;
+            top: 3px;
+            display: table;
+            width: 4px;
+            height: 9px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #6f7784;
+            border-top: 0;
+            border-left: 0;
+            content: '';
+        }
+    }
+}
+
+.icon-notation {
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 4px;
+    padding: 12px;
+    max-width: 222px;
+    margin: 0 auto 40px;
+    color: rgb(33, 36, 44);
+    font-size: 12px;
+    text-align: center;
+
+    .fa {
+        color: #3c8dbc;
+        margin-right: 6px;
+        font-size: 16px;
+    }
+}

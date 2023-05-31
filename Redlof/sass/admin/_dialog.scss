@@ -1,0 +1,32 @@
+.ngdialog.ngdialog-theme-default {
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+.label-adimn {
+    margin: 20px 0;
+    background-color: #f6f6f6;
+    padding: 5px 11px;
+
+    h4 {
+        font-size: .975rem;
+        font-weight: 600;
+        color: #008CAB;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+.table > thead:first-child > tr:first-child > th, .table > thead:first-child > tr:first-child > td {
+    font-size: 1.25rem;
+}
+
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    font-size: 1rem;
+}
+
+.common-form {
+    .form-group {
+        font-size: .75rem;
+    }
+}

@@ -1,0 +1,88 @@
+[
+    "vendor/jquery/jquery-1.11.3.js",
+
+    "vendor/bootstrap/bootstrap.js",
+
+    "vendor/jquery/jquery-ui.js",
+
+    "vendor/spinjs/spin.js",
+    "vendor/sweetalert/sweetalert.js",
+    "vendor/chartjs/chart.js",
+
+    "vendor/flexslider/jquery.flexslider.js",
+    "vendor/bootstrap/moment.js",
+    "vendor/bootstrap/toastr.js",
+
+    "vendor/fastclick/fastclick.js",
+    "vendor/iCheck/icheck.js",
+    "vendor/underscore/underscore.js",
+
+    "vendor/file/FileSaver.js",
+    "vendor/file/Blob.js",
+
+    "vendor/slimScroll/jquery.slimscroll.js",
+
+    "vendor/angularjs/angular.js",
+    "vendor/angularjs/angular-ui-router.js",
+    "vendor/angularjs/angular-route.js",
+    "vendor/angularjs/angular-ui-switch.js",
+
+    "vendor/angularjs/lodash.js",
+    "vendor/angularjs/angular-sanitize.js",
+    "vendor/angularjs/angular-animate.js",
+    "vendor/angularjs/satellizer.js",
+    "vendor/angularjs/ng-dialog.js",
+    "vendor/angularjs/ui-bootstrap-tpls-1.2.5.js",
+    "vendor/angularjs/datetimepicker.js",
+    "vendor/angularjs/ng-file-upload-shim.js",
+    "vendor/angularjs/ng-file-upload.js",
+    "vendor/angularjs/ng-img-crop.js",
+    "vendor/angularjs/angular-permission.js",
+    "vendor/angularjs/angular-messages.js",
+    "vendor/angularjs/ng-notify.js",
+    "vendor/angularjs/ui-select.js",
+    "vendor/angularjs/angular-poller.js",
+    "vendor/angularjs/ng-dialog.js",
+    "vendor/angularjs/angular-dante.js",
+    "vendor/angularjs/angular-ui-switch.js",
+    "vendor/angularjs/angulargrid.js",
+    "vendor/angularjs/angular-touch.js",
+    "vendor/angularjs/angular-flexslider.js",
+    "vendor/angularjs/checklist-model.js",
+    "vendor/angularjs/angular-minicolors.js",
+    "vendor/angularjs/angular-toastr.tpls.js",
+    "vendor/angularjs/ng-infinite-scroll.js",
+    "vendor/angularjs/loading-bar.js",
+    "vendor/angularjs/angular-tooltips.js",
+    "vendor/angularjs/angular-gallery.js",
+    "vendor/angularjs/ng-map.js",
+    "vendor/angularjs/angular-file-saver.js",
+
+    "vendor/angularjs/ng-password-meter.js",
+
+    "vendor/angularjs/angular-cookies.js",
+
+    "vendor/angularjs/angular-input-stars.js",
+    "vendor/angularjs/roundProgress.js",
+
+    "vendor/angularjs/ui-bootstrap-datetimepicker.js",
+    "vendor/angularjs/datetime-picker.tpls.js",
+
+    "vendor/angularjs/angular-material.js",
+    "vendor/angularjs/angular-aria.js",
+    "vendor/angularjs/mdPickers.js",
+
+    "vendor/angularjs/ng-phpdebugbar.js",
+
+    "vendor/angularjs/angular-validation.js",
+    "vendor/angularjs/angular-validation-rule.js",
+
+    "vendor/angularjs/angular-spinner.js",
+    "vendor/angularjs/angular-loading-spinner.js",
+
+    "vendor/summernote/summernote.js",
+    "vendor/summernote/angular-summernote.js",
+    "vendor/sweetalert/ngsweetalert.js",
+    "vendor/chartjs/angular-chart.js"
+
+]

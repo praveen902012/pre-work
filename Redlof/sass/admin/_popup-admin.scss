@@ -1,0 +1,90 @@
+.create-popup-style {
+    &.ngdialog-theme-default {
+        .ngdialog-content {
+            max-width: 700px;
+            border-radius: 4px;
+            padding: 0;
+        }
+
+        .ngdialog-close {
+            display: none;
+        }
+    }
+}
+
+.lg-popup-style {
+    &.ngdialog-theme-default {
+        .ngdialog-content {
+            max-width: 900px;
+            border-radius: 4px;
+            padding: 0;
+        }
+
+        .ngdialog-close {
+            display: none;
+        }
+    }
+}
+
+.sm-popup-style {
+    padding-top: 80px !important;
+
+    &.ngdialog-theme-default {
+        .ngdialog-content {
+            max-width: 500px;
+            border-radius: 4px;
+            padding: 0;
+        }
+
+        .ngdialog-close {
+            display: none;
+        }
+
+        .header-popup-ad {
+            h2 {
+                margin: 0;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.header-popup-ad {
+    font-size: 1.3125rem;
+    font-weight: 700;
+    line-height: 1.25em;
+    padding: 16px 24px;
+    border-bottom: 1px solid #d6d8da;
+    position: relative;
+    background-color: #f9f9f9;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    h2 {
+        font-size: 1.3125rem;
+        font-weight: 700;
+        line-height: 1.25em;
+    }
+
+    .close-icon {
+        outline: none;
+        padding-left: 20px;
+    }
+
+    .popup-rt {
+        position: absolute;
+        right: 12px;
+        top: 12px;
+    }
+}
+
+.popup-content-ad {
+    padding: 16px 24px;
+}
+
+.pp-addstate{
+    .popover {
+         min-width: 299px;
+  }
+      
+}

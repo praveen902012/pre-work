@@ -1,0 +1,232 @@
+.page-content {
+    h1 {
+        color: $primary-green;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 20px;
+        color: rgb(33, 36, 44);
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    p,
+    li {
+        color: rgb(111, 119, 132);
+        font-size: .875rem;
+        line-height: 24px;
+    }
+    .st-page-haeding {
+        line-height: 1.125em;
+    }
+    .panel-default {
+        margin-bottom: 12px;
+        .panel-heading {
+            padding: 12px;
+            background-color: rgb(249, 249, 249);
+            h4 {
+                font-size: .875rem;
+                margin: 0;
+            }
+        }
+    }
+    .instruction-heading {
+        color: rgb(33, 36, 44);
+        font-size: 21px;
+        font-weight: 700;
+    }
+}
+
+.instruction-list {
+    li {
+        color: rgb(33, 36, 44);
+        font-size: .875rem;
+        margin-bottom: 16px;
+    }
+}
+
+.bg-wht {
+    background-color: #ffffff;
+}
+
+.home-map-section {
+    margin-top: -55px;
+    h2 {
+        color: rgb(33, 36, 44);
+        font-size: 1.875rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        border-bottom: 1px solid #C8C8C8;
+        display: inline-block;
+        padding-bottom: 12px;
+        margin-bottom: 42px;
+    }
+    a {
+        font-size: 1.3125rem;
+        margin-bottom: 16px;
+        display: inline-block;
+        color: rgb(111, 119, 132);
+        transition: all 300ms linear;
+        -moz-transition: all 300ms linear;
+        -webkit-transition: all 300ms linear;
+        -o-transition: all 300ms linear;
+        -ms-transition: all 300ms linear;
+        &:hover,
+        &:active,
+        &:focus {
+            text-decoration: none;
+            color: rgb(48, 139, 242);
+        }
+    }
+}
+
+.state-list-home {
+    padding: 55px;
+}
+
+.st-card-land {
+    padding: 42px;
+    h2 {
+        margin: 0;
+        margin-bottom: 36px;
+    }
+}
+
+.globl-st {
+    padding: 40px 0 0;
+    text-align: center;
+    h2 {
+        color: #71b307 !important;
+        font-size: 1.875rem;
+        font-weight: 900;
+        margin: 0;
+    }
+}
+
+.quotes-section {
+    margin-bottom: 5%;
+    h4 {
+        font-family: 'Cormorant Garamond', serif;
+        color: rgb(33, 36, 44);
+        font-size: 30px;
+        line-height: 37px;
+        font-weight: 600;
+        margin: 42px 0 25px;
+    }
+}
+
+.quote-circle {
+    width: 262px;
+    height: 262px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 50%;
+    position: absolute;
+    left: -127px;
+    top: -19px;
+}
+
+.statistics-conut {
+    background-color: #ffffff;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.margin-top {
+    margin-top: -55px;
+}
+
+.all-sm-top {
+    padding: 36px 120px;
+}
+
+.contact-link {
+    a {
+        color: #6f7784;
+        font-size: 1rem;
+        line-height: 24px;
+        strong {
+            color: #21242C;
+            font-weight: 400;
+        }
+    }
+}
+
+.team-card {
+    margin: 40px 0;
+    padding: 32px 68px;
+    img {
+        margin-bottom: 24px;
+    }
+    .logo-indus {
+        height: 50px;
+    }
+}
+
+.panel-heading {
+    h4 {
+        a {
+            display: block;
+            &:before {
+                position: absolute;
+                right: 24px;
+                content: '\f067';
+                display: inline-block;
+                height: 24px;
+                width: 24px;
+                text-align: center;
+                line-height: 10px;
+                font-size: 18px;
+                font-family: 'FontAwesome';
+                color: #C8C8CB;
+            }
+        }
+    }
+}
+
+.panel-heading>h4>a.collapsed:before {
+    content: '\f068';
+    font-family: 'FontAwesome';
+    color: #C8C8CB;
+}
+
+.school-info {
+    padding: 28px;
+    h4 {
+        color: rgb(33, 36, 44);
+        font-size: .875rem;
+        font-weight: 700;
+    }
+    p {
+        color: rgb(33, 36, 44);
+        font-size: .875rem;
+        margin: 0;
+    }
+    .info-row {
+        border-bottom: 1px solid #D6D8DA;
+        padding: 20px 0;
+        &.no-border {
+            border: none;
+            padding-bottom: 0;
+        }
+        img {
+            width: 190px;
+            height: 75px;
+        }
+    }
+    .info-row-heading {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #D6D8DA;
+        h4 {
+            color: rgb(113, 179, 7);
+        }
+    }
+}

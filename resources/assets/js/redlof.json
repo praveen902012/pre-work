@@ -1,0 +1,8 @@
+[
+    "redlof/adminui.js",
+    "redlof/common.js",
+    "redlof/plugins.js",
+    "redlof/map-state.js",
+    "redlof/map.js",
+    "redlof/map-events.js"
+]

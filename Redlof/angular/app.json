@@ -1,0 +1,32 @@
+[
+    [
+        "Page",
+        "page.js",
+        "un-uglify"
+    ],
+    [
+        "RoleAdmin",
+        "role-admin.js",
+        "un-uglify"
+    ],
+    [
+        "RoleDistrictAdmin",
+        "role-districtadmin.js",
+        "un-uglify"
+    ],
+    [
+        "RoleNodalAdmin",
+        "role-nodaladmin.js",
+        "un-uglify"
+    ],
+    [
+        "RoleSchoolAdmin",
+        "role-schooladmin.js",
+        "un-uglify"
+    ],
+    [
+        "RoleStateAdmin",
+        "role-stateadmin.js",
+        "un-uglify"
+    ]
+]

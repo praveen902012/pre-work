@@ -1,0 +1,180 @@
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+}
+
+.parent-container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.rte-container {
+    max-width: 946px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hide_element {
+    visibility: hidden !important;
+    display: none;
+}
+
+.show_element {
+    visibility: visible !important;
+    display: block;
+}
+
+$font-primary: "Lato", sans-serif;
+$content: "Poppins", Arial, Source Serif;
+$blog-heading: "Bitter", Arial, Source Serif;
+$blog-content: "Source Serif Pro", Arial, Source Serif;
+$primary-red: #D63025;
+$primary-green: rgb(113, 179, 7);
+
+$light-grey: #545151;
+$primary-dark: #1f1f1f;
+$primary-teal: #008d94;
+$primary-blue: #308bf2;
+
+// font size
+$font-h1: 1.875rem;
+$font-h2: 1.5rem;
+$font-h3: 1.3125rem;
+$font-h4: 1.125rem;
+$font-h5: 1rem;
+$font-h6: 0.9375rem;
+$font-h7: 0.875rem;
+$font-h8: 0.8125rem;
+$font-h9: 0.75rem;
+
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak {
+    display: none !important;
+}
+
+button {
+    outline: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+        transition: all 300ms linear;
+        outline: none;
+    }
+}
+
+a {
+    text-decoration: none;
+
+    &:active,
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+article {
+    margin-bottom: 25px;
+
+    header {
+        h1 {
+            color: #4f4f4f;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+input[type="button"] {
+    border: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: none !important;
+        outline: none !important;
+    }
+}
+
+.btn:focus,
+.btn.focus,
+.btn:active:focus,
+.btn:active.focus,
+.btn.active:focus,
+.btn.active.focus {
+    outline: none;
+}
+
+#toast-container > .toast-success,
+#toast-container > .toast-error {
+    background: linear-gradient(to right, rgb(17, 153, 142), rgb(38, 136, 75)) !important;
+}
+
+#toast-container > div {
+    background: linear-gradient(to right, rgb(17, 153, 142), rgb(38, 136, 75));
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+    color: rgb(250, 250, 250);
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 2px;
+    font-size: 14px;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0) rotateZ(0deg);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    font-size: .85rem;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.toast-progress {
+    background-color: rgba(255, 255, 255, 0.93) !important;
+}
+
+.page-height {
+    min-height: 99vh;
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
+
+.search-action {
+    .form-group {
+        margin-bottom: 8px;
+        float: left;
+
+        .form-control {
+            width: 224px;
+        }
+    }
+
+    .btn-theme {
+        float: left;
+        margin-left: 8px;
+    }
+}
+
+.doc-row{
+    margin-bottom: 60px;
+
+    .doc-parent{
+        margin-left: 17%;
+    }
+
+    .fa-download{
+        float: right;
+        cursor: pointer;
+    }
+
+    a{
+        color: #333f46;
+    }
+}
+
+.doc-head{
+    padding: 50px;
+}

@@ -1,0 +1,265 @@
+.d_board_form {
+    margin-bottom: 20px;
+
+    .form-control {
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(234, 234, 234);
+        border-width: 1px;
+        padding: 0px 10px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        border-radius: 4px;
+        min-width: 183px;
+        max-width: 183px;
+        height: 34px;
+        color: rgba(111, 119, 132, 0.75);
+        font-size: 14px;
+    }
+}
+
+.dash_content {
+    p {
+        font-weight: 600;
+        font-size: .875rem;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-variant: normal;
+        color: rgb(111, 119, 132);
+        font-size: .875rem;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .btn-theme {
+        height: 34px;
+        padding: 0 12px;
+        line-height: 33px;
+        font-size: .875rem;
+        color: #fff;
+        background-color: rgb(48, 139, 242);
+        font-weight: 400;
+        transition: all 300ms linear;
+        -moz-transition: all 300ms linear;
+        -webkit-transition: all 300ms linear;
+        -o-transition: all 300ms linear;
+        -ms-transition: all 300ms linear;
+
+        &:hover, &:active, &:focus {
+            text-decoration: none;
+            background-color: darken(rgb(48, 139, 242), 15%);
+        }
+    }
+
+    .custom-table {
+        border: 1px solid rgb(234, 234, 234);
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+        margin-bottom: 32px;
+
+        thead {
+            background-color: rgb(245, 245, 245);
+            border-color: rgb(234, 234, 234);
+            border-width: 1px;
+            color: rgb(33, 36, 44);
+            padding: 0px 10px;
+            text-align: left;
+            font-size: 14px;
+
+            &.thead-cls {
+                tr {
+                    th {
+                        font-size: 1rem !important;
+                        font-weight: 400 !important;
+                        color: rgb(111, 119, 132);
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    color: rgb(33, 36, 44) !important;
+                    font-size: 28px !important;
+                }
+            }
+        }
+    }
+
+    .ttl_new_count_card{
+        border: 1px solid #3d8bf2;
+        padding: 10px;
+        color: #3d8bf2 !important;
+        border-radius: 8px;
+
+        h2, p{
+            color: #3d8bf2 !important;
+            margin: 0px;
+        }
+
+        p{
+            font-size: 13px;
+        }
+    }
+
+    .totl_count_card {
+        border-right: 2px solid rgb(234, 234, 234);
+        margin-bottom: 30px;
+        padding-right: 20px;
+
+        &.no-border {
+            border: none;
+        }
+
+        h1 {
+            color: rgb(33, 36, 44);
+            font-size: 28px;
+            margin-bottom: 6px;
+        }
+
+        p {
+            color: rgba(111, 119, 132, 0.75);
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 16px;
+        }
+    }
+
+    .chart_card {
+        border-width: 1px;
+        border-radius: 4px;
+        border-color: rgb(234, 234, 234);
+        border-style: solid;
+        margin: 20px 0 50px;
+
+        .header {
+            background-color: #f9f9f9;
+            padding: 10px 50px;
+            text-align: center;
+            height: auto;
+            border-bottom: 1px solid #eaeaea;
+            margin-bottom: 15px;
+            min-height: 46px;
+
+            h6 {
+                color: rgb(33, 36, 44);
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+
+        .footer_chart {
+            padding: 20px 30px;
+
+            p {
+                margin-bottom: 0;
+                font-weight: 400;
+            }
+
+            span {
+                display: inline-block;
+                line-height: 24px;
+                color: rgb(111, 119, 132);
+                font-size: 12px;
+                padding-right: 12px;
+
+                strong {
+                    display: block;
+                    color: rgb(113, 179, 7);
+                    font-size: 16px;
+
+                    &.txt-purple {
+                        color: rgb(158, 154, 200);
+                    }
+                }
+            }
+        }
+    }
+
+    .dash_hero_sec {
+        padding: 2% 4%;
+        background-color: rgb(245, 245, 245);
+        border-top: 1px solid rgb(234, 234, 234);
+        border-bottom: 1px solid rgb(234, 234, 234);
+
+        .state-profile {
+            position: relative;
+            padding: 12px;
+            padding-left: 60px;
+
+            img {
+                position: absolute;
+                left: 0;
+                width: 48px;
+                height: 48px;
+                background-color: #efefef;
+                border: 1px solid #efefef;
+                border-radius: 50%;
+                text-indent: -99999px;
+            }
+        }
+
+        .btn-theme {
+            font-size: 1rem;
+            font-weight: 600;
+            height: 40px;
+            line-height: 39px;
+        }
+
+        .all-admin-link {
+            margin-bottom: 12px;
+
+            .btn-outline-blue {
+                span {
+                    color: rgb(48, 139, 242);
+                    font-size: 20px;
+                }
+
+                transition: all 300ms linear;
+
+                &:hover, &:active, &:focus {
+                    text-decoration: none;
+
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .reason-list {
+        padding: 20px;
+        border: 1px solid rgb(234, 234, 234);
+        margin-bottom: 70px;
+        border-radius: 4px;
+        max-width: 500px;
+
+        p {
+            font-variant: normal;
+            color: rgba(111, 119, 132, 0.75);
+            font-size: 13px;
+            margin-bottom: 0;
+            line-height: 24px;
+            font-weight: 400;
+        }
+    }
+}
+
+.dashboard_container {
+    padding: 4%;
+}
+
+.custom_piechart_canvas {
+    margin-left: 50px !important;
+    height: 370px !important;
+}
+
+.custom_barchart_canvas {
+    margin-left: 50px !important;
+    height: 400px !important;
+}

@@ -1,0 +1,97 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "repositories": {
+        "packagist": {
+            "url": "https://packagist.org",
+            "type": "composer"
+        }
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.5.*",
+        "laravelcollective/html": "^5.3.0",
+        "hieu-le/active": "^3.3",
+        "intervention/image": "^2.3",
+        "maatwebsite/excel": "~2.1.0",
+        "aws/aws-sdk-php-laravel": "~3.0",
+        "tymon/jwt-auth": "0.5.*",
+        "zizaco/entrust": "5.2.x-dev",
+        "guzzlehttp/guzzle": "6.2.*",
+        "guzzlehttp/oauth-subscriber": "0.3.*",
+        "fabpot/goutte": "^3.1",
+        "anlutro/curl": "^1.4",
+        "nicolaslopezj/searchable": "1.*",
+        "league/flysystem": "^1.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "spatie/laravel-backup": "^3.0.0",
+        "darrylkuhn/dialect": "dev-master",
+        "grimthorr/laravel-toast": "^1.1",
+        "laracasts/flash": "^2.0",
+        "shivella/laravel-bitly": "^1.0",
+        "doctrine/dbal": "^2.5",
+        "barryvdh/laravel-dompdf": "^0.8.2",
+        "webpatser/laravel-uuid": "^4.0",
+        "barryvdh/laravel-async-queue": "^0.7.1",
+        "consoletvs/charts": "4.*",
+        "aurawindsurfing/google-translate": "^1.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~6.0",
+        "symfony/css-selector": "3.1.*",
+        "symfony/dom-crawler": "3.1.*",
+        "filp/whoops": "~2.0"
+    },
+    "autoload": {
+        "files": [
+            "Redlof/laravel/Core/Helpers/helpers.php"
+        ],
+        "classmap": [
+            "Redlof/laravel"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Redlof\\": "Redlof/laravel/",
+            "Models\\": "Redlof/laravel/Engine/Models",
+            "Helpers\\": "Redlof/laravel/Engine/Helper",
+            "Classes\\": "Redlof/laravel/Engine/Classes",
+            "Exceptions\\": "Redlof/laravel/Core/Exceptions"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}

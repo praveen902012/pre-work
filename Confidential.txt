@@ -1,0 +1,20 @@
+
+ /*************************************************************************
+ * 
+ * THINK201 CONFIDENTIAL
+ * _________________________________________________
+ * 
+ *  [2013] - [2017] Think201 Creative Studio LLP 
+ *  All Rights Reserved.
+ * 
+ * 	NOTICE:  This project and all its components including but not limiting 
+ *	to the source code, algorithms, softwares, plugins and infrastructure to 
+ *	support the project, are confidential and are to be safeguarded from any 
+ *	entity outside the purivew of Think201. Any disclosure of such information 
+ *	regarding this project, unless asked to do so by Think201 or the owner of 
+ *	the project, is considered as breach of Non-Disclosure Agreement between 
+ *	Think201 and its employees.
+ *
+ */
+
+
